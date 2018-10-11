@@ -1,5 +1,5 @@
 // Requiring the connection.js in the same folder
-var connection = require("./connection");
+var connection = require("./connection.js");
 
 function printQuestionMarks(num) {
     var arr = [];
@@ -88,6 +88,7 @@ var orm = {
             cb(result);
         });
     }
+
 
 
 }
